@@ -22,6 +22,7 @@ int main(){
     head->next->next->next = newNode(4);
     head->next->next->next->next = newNode(5);
  
+    
     /* Create a loop for testing */
     head->next->next->next->next->next = head->next;
  
